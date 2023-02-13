@@ -1,0 +1,4 @@
+fastapi
+facebook-sdk
+pymongo
+uvicorn

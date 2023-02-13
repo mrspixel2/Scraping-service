@@ -1,0 +1,12 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  scrapping_service:
+    build: .
+    ports:
+      - 8000:8000
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
